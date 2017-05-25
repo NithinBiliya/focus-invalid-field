@@ -31,6 +31,7 @@ Add the focus-invalid-field attribute onto the form tag -
 Credits
 ---------
 Created module from ideas from -- [Stack Overflow](https://stackoverflow.com/a/20389433/1298824)
+
 [iandotkelly](https://stackoverflow.com/users/832390/iandotkelly) , [roryf](https://stackoverflow.com/users/270/roryf) and [pcatre](https://stackoverflow.com/users/3094399/pcatre)
 
 License
