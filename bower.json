@@ -1,0 +1,27 @@
+{
+  "name": "focus-invalid-field",
+  "description": "angular directive to set focus on first visible invalid field on submitting a form",
+  "main": "focus-invalid-field.js",
+  "authors": [
+    "Nithin Biliya"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "form",
+    "submit",
+    "focus"
+  ],
+  "homepage": "https://github.com/NithinBiliya/focus-invalid-field",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4",
+    "jquery": "^3.2.1"
+  }
+}

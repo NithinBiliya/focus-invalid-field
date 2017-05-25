@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="focus-invalid-field.js"></script>
+    <script src="script.js"></script>
+    <title>focus-invalid-field</title>
+  </head>
+  <body ng-app="myApp">
+    <div ng-controller="myCtrl">
+      <form name="myFormNg" novalidate ng-submit="submitTheForm()" focus-invalid-field>
+        <p> First Name : <input name="person.firstName" ng-model="person.firstName" ng-required="false" /> </p>
+        <p> Second Name * : <input name="person.secondName" ng-model="person.secondName" ng-required="true" /> </p>
+        <p> Age : <input name="person.age" ng-model="person.age" ng-required="false" /> </p>
+        <p> Sex * : <input name="person.sex" ng-model="person.sex" ng-required="true" /> </p>
+        <p> Phone * : <input name="person.phone" ng-model="person.phone" ng-required="true" /> </p>
+        <p> <input type="submit" value="Save" /> </p>
+      </form>
+    </div>
+  </body>
+</html>

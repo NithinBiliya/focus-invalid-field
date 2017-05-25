@@ -1,0 +1,10 @@
+/*csslint adjoining-classes:false */
+
+.ng-submitted .ng-invalid
+{
+    border:1px solid #f00;
+}
+.ng-touched.ng-invalid
+{
+    border:1px solid #f00;
+}
