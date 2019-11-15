@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/NithinBiliya/focus-invalid-field#readme",
   "devDependencies": {
-    "eslint": "^3.19.0"
+    "eslint": "^6.6.0"
   }
 }
